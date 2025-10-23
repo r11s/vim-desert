@@ -8,7 +8,7 @@ scripts/
 tests/
 assets/*.psd
 **/.DS_Store
-/temp
+temp/
 
 # Git/Build-Artefakte
 .git/

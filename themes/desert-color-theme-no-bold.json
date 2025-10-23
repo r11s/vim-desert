@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Desert (Vim port Bold)",
+  "name": "Desert (Vim port No Bold)",
   "type": "dark",
   "colors": {
     "foreground": "#ffffff",
@@ -55,12 +55,14 @@
     "sideBarSectionHeader.background": "#4d4d4d",
     "sideBarSectionHeader.foreground": "#eeee00",
 
+    /* Activity Bar: higher contrast */
     "activityBar.background": "#3c3c3c",
     "activityBar.foreground": "#f6ec96",
     "activityBar.inactiveForeground": "#c2bfa5",
     "activityBarBadge.background": "#f6ec96",
     "activityBarBadge.foreground": "#1a1a1a",
 
+    /* Title Bar: high readability */
     "titleBar.activeBackground": "#f6ec96",
     "titleBar.activeForeground": "#1a1a1a",
     "titleBar.inactiveBackground": "#c2bfa5",
@@ -73,9 +75,11 @@
     "statusBar.debuggingBackground": "#c2bfa5",
     "statusBar.debuggingForeground": "#333333",
 
+    /* Tabs header: darker stage for tabs */
     "editorGroupHeader.tabsBackground": "#2f2f2f",
-    "editorGroupHeader.tabsBorder": "#2f2f2f",
+    "editorGroupHeader.tabsBorder": "#00000000",
 
+    /* Tabs: strong differentiation */
     "tab.activeBackground": "#f6ec96",
     "tab.activeForeground": "#1a1a1a",
     "tab.activeBorderTop": "#ffde9b",
@@ -153,7 +157,7 @@
     {
       "name": "Keywords / Statements (Statement)",
       "scope": ["keyword", "keyword.control", "keyword.operator", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#f0e68c", "fontStyle": "bold" }
+      "settings": { "foreground": "#f0e68c" }
     },
     {
       "name": "Preprocessor / Imports (PreProc)",
@@ -163,7 +167,7 @@
     {
       "name": "Types (Type)",
       "scope": ["entity.name.type", "support.type", "support.class", "storage.type.class", "storage.type.interface"],
-      "settings": { "foreground": "#bdb76b", "fontStyle": "bold" }
+      "settings": { "foreground": "#bdb76b" }
     },
     {
       "name": "Functions & Methods (Identifier/Function)",
@@ -188,7 +192,7 @@
     {
       "name": "Classes / Types (Title)",
       "scope": ["entity.name.class", "entity.other.inherited-class", "entity.name.namespace"],
-      "settings": { "foreground": "#cd5c5c", "fontStyle": "bold" }
+      "settings": { "foreground": "#cd5c5c" }
     },
     {
       "name": "Attributes / Annotations",
@@ -208,12 +212,12 @@
     {
       "name": "Markdown Headings (Title)",
       "scope": ["markup.heading", "entity.name.section"],
-      "settings": { "foreground": "#cd5c5c", "fontStyle": "bold" }
+      "settings": { "foreground": "#cd5c5c" }
     },
     {
-      "name": "Markup Emphasis",
+      "name": "Markup Emphasis (no bold)",
       "scope": ["markup.bold"],
-      "settings": { "fontStyle": "bold" }
+      "settings": { "fontStyle": "" }
     },
     {
       "name": "Markup Italic",
@@ -239,13 +243,13 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "comment": {"foreground": "#6dceeb"},
-    "keyword": {"foreground": "#f0e68c", "bold": true},
+    "keyword": {"foreground": "#f0e68c"},
     "string": {"foreground": "#ffa0a0"},
     "number": {"foreground": "#ffa0a0"},
     "function": {"foreground": "#89fb98"},
     "method": {"foreground": "#89fb98"},
-    "type": {"foreground": "#bdb76b", "bold": true},
-    "class": {"foreground": "#cd5c5c", "bold": true},
+    "type": {"foreground": "#bdb76b"},
+    "class": {"foreground": "#cd5c5c"},
     "variable.readonly": {"foreground": "#ffde9b"},
     "parameter": {"foreground": "#89fb98"},
     "property": {"foreground": "#ffffff"},

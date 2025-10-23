@@ -4,14 +4,28 @@
   "description": "A faithful port of Vim's \"desert.vim\" colorscheme to Visual Studio Code.",
   "version": "1.0.0",
   "publisher": "r11s",
-  "engines": { "vscode": "^1.80.0" },
-  "categories": ["Themes"],
-  "extensionKind": ["ui"],
-  "galleryBanner": { "color": "#333333", "theme": "dark" },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
   "icon": "assets/icon.png",
   "license": "Vim",
-  "repository": { "type": "git", "url": "https://github.com/r11s/desert-vscode-theme" },
-  "bugs": { "url": "https://github.com/r11s/desert-vscode-theme/issues" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r11s/desert-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/r11s/desert-vscode-theme/issues"
+  },
   "homepage": "https://github.com/r11s/desert-vscode-theme",
   "contributes": {
     "themes": [
@@ -19,6 +33,11 @@
         "label": "Desert (Vim Port)",
         "uiTheme": "vs-dark",
         "path": "./themes/desert-color-theme.json"
+      },
+      {
+        "label": "Desert (Vim port, no bold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/desert-color-theme-no-bold.json"
       }
     ]
   },
