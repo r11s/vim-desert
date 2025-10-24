@@ -71,10 +71,6 @@ To retain Vim’s clean, focused aesthetic:
 
 These options remove unnecessary color distractions and keep the interface faithful to the Vim look.
 
-> 💡 *Tip:*
->  If you prefer the classic Vim look, you can set `"editor.semanticHighlighting.enabled": false`.
->  Vim itself didn’t use semantic highlighting, so this makes the code appear a bit more authentic.
-
 ------
 
 ## ⚖️ License

@@ -21,8 +21,8 @@
     "editorBracketMatch.background": "#bdb76b",
     "editorBracketMatch.border": "#7f7f8c",
     "editorWhitespace.foreground": "#4d4d4d",
-    "editorIndentGuide.background": "#4d4d4d",
-    "editorIndentGuide.activeBackground": "#666666",
+    "editorIndentGuide.background1": "#4d4d4d",
+    "editorIndentGuide.activeBackground1": "#666666",
 
     "editorError.foreground": "#dd0000",
     "editorWarning.foreground": "#eeee00",
@@ -37,10 +37,12 @@
     "editorGutter.deletedBackground": "#af5faf",
 
     "list.focusBackground": "#666666",
-    "list.activeSelectionBackground": "#f0e68c",
-    "list.activeSelectionForeground": "#333333",
+
     "list.inactiveSelectionBackground": "#666666",
-    "list.hoverBackground": "#4d4d4d",
+    "list.activeSelectionBackground": "#c2bfa5",
+    "list.activeSelectionForeground": "#333333",
+    "list.hoverBackground": "#b0ad95",
+
     "list.hoverForeground": "#ffffff",
     "list.highlightForeground": "#f6ec96",
 
@@ -54,8 +56,9 @@
 
     "sideBar.background": "#424242",
     "sideBar.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#424242",
-    "sideBarSectionHeader.foreground": "#eeee00",
+
+    "sideBarSectionHeader.background": "#c2bfa5",
+    "sideBarSectionHeader.foreground": "#333333",
 
     "activityBar.background": "#3c3c3c",
     "activityBar.foreground": "#f6ec96",
@@ -75,26 +78,8 @@
     "statusBar.debuggingBackground": "#c2bfa5",
     "statusBar.debuggingForeground": "#333333",
 
-    "editorGroupHeader.tabsBackground": "#2f2f2f",
-    "editorGroupHeader.tabsBorder": "#2f2f2f",
-
-    "tab.activeBackground": "#f6ec96",
-    "tab.activeForeground": "#1a1a1a",
-    "tab.activeBorderTop": "#ffde9b",
-    "tab.activeModifiedBorder": "#cd5c5c",
-
-    "tab.inactiveBackground": "#3e3e3e",
-    "tab.inactiveForeground": "#e6e2c0",
-
-    "tab.hoverBackground": "#4a4a4a",
-    "tab.hoverForeground": "#ffffff",
-
-    "tab.unfocusedActiveBackground": "#e9dfa0",
-    "tab.unfocusedActiveForeground": "#222222",
-    "tab.unfocusedInactiveForeground": "#d6d2b0",
-
-    "tab.border": "#00000000",
-    "editorGroup.border": "#1f1f1f",
+    "tab.activeBackground": "#c2bfa5",
+    "tab.activeForeground": "#ffffff",
 
     "panel.background": "#4d4d4d",
     "panel.border": "#c2bfa5",
@@ -134,10 +119,8 @@
     "terminal.ansiBrightBlue":    "#6dceeb",
     "terminal.ansiBrightMagenta": "#ffde9b",
     "terminal.ansiBrightCyan":    "#ffa0a0",
-    "terminal.ansiBrightWhite":   "#c2bfa5",
+    "terminal.ansiBrightWhite":   "#c2bfa5"
 
-    "quickInput.background": "#4d4d4d",
-    "quickInput.foreground": "#ffffff"
   },
   "tokenColors": [
     {
