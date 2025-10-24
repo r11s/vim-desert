@@ -24,7 +24,7 @@
     "editorIndentGuide.background": "#4d4d4d",
     "editorIndentGuide.activeBackground": "#666666",
 
-    "editorError.foreground": "#ff0000",
+    "editorError.foreground": "#dd0000",
     "editorWarning.foreground": "#eeee00",
     "editorInfo.foreground": "#75a0ff",
 
@@ -41,6 +41,8 @@
     "list.activeSelectionForeground": "#333333",
     "list.inactiveSelectionBackground": "#666666",
     "list.hoverBackground": "#4d4d4d",
+    "list.hoverForeground": "#ffffff",
+    "list.highlightForeground": "#f6ec96",
 
     "dropdown.background": "#666666",
     "dropdown.foreground": "#ffffff",
@@ -50,9 +52,9 @@
     "input.foreground": "#ffffff",
     "input.border": "#666666",
 
-    "sideBar.background": "#4d4d4d",
+    "sideBar.background": "#424242",
     "sideBar.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#4d4d4d",
+    "sideBarSectionHeader.background": "#424242",
     "sideBarSectionHeader.foreground": "#eeee00",
 
     "activityBar.background": "#3c3c3c",
@@ -61,9 +63,9 @@
     "activityBarBadge.background": "#f6ec96",
     "activityBarBadge.foreground": "#1a1a1a",
 
-    "titleBar.activeBackground": "#f6ec96",
+    "titleBar.activeBackground": "#c2bfa5",
     "titleBar.activeForeground": "#1a1a1a",
-    "titleBar.inactiveBackground": "#c2bfa5",
+    "titleBar.inactiveBackground": "#a8a58c",
     "titleBar.inactiveForeground": "#333333",
 
     "statusBar.background": "#c2bfa5",
@@ -91,7 +93,7 @@
     "tab.unfocusedActiveForeground": "#222222",
     "tab.unfocusedInactiveForeground": "#d6d2b0",
 
-    "tab.border": "#1f1f1f",
+    "tab.border": "#00000000",
     "editorGroup.border": "#1f1f1f",
 
     "panel.background": "#4d4d4d",
@@ -132,7 +134,10 @@
     "terminal.ansiBrightBlue":    "#6dceeb",
     "terminal.ansiBrightMagenta": "#ffde9b",
     "terminal.ansiBrightCyan":    "#ffa0a0",
-    "terminal.ansiBrightWhite":   "#c2bfa5"
+    "terminal.ansiBrightWhite":   "#c2bfa5",
+
+    "quickInput.background": "#4d4d4d",
+    "quickInput.foreground": "#ffffff"
   },
   "tokenColors": [
     {
@@ -178,7 +183,8 @@
     {
       "name": "Parameters",
       "scope": ["variable.parameter"],
-      "settings": { "foreground": "#89fb98" }
+      /* "settings": { "foreground": "#89fb98" } */
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "name": "Constants & Special (Special)",
@@ -238,17 +244,19 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": {"foreground": "#6dceeb"},
-    "keyword": {"foreground": "#f0e68c", "bold": true},
-    "string": {"foreground": "#ffa0a0"},
-    "number": {"foreground": "#ffa0a0"},
-    "function": {"foreground": "#89fb98"},
-    "method": {"foreground": "#89fb98"},
-    "type": {"foreground": "#bdb76b", "bold": true},
-    "class": {"foreground": "#cd5c5c", "bold": true},
-    "variable.readonly": {"foreground": "#ffde9b"},
-    "parameter": {"foreground": "#89fb98"},
-    "property": {"foreground": "#ffffff"},
-    "enumMember": {"foreground": "#ffde9b"}
+    "comment": { "foreground": "#6dceeb" },
+    "keyword": { "foreground": "#f0e68c", "bold": true },
+    "string": { "foreground": "#ffa0a0" },
+    "number": { "foreground": "#ffa0a0" },
+    "function": { "foreground": "#89fb98" },
+    "method": { "foreground": "#89fb98" },
+    "parameter": { "foreground": "#ffffff" },
+    "variable": { "foreground": "#ffffff" },
+    "namespace": { "foreground": "#ffffff" },
+    "module": { "foreground": "#ffffff" },
+    "property": { "foreground": "#ffffff" },
+    "enumMember": { "foreground": "#ffde9b" },
+    "type": { "foreground": "#bdb76b", "bold": true },
+    "class": { "foreground": "#cd5c5c", "bold": true }
   }
 }

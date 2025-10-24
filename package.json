@@ -2,7 +2,7 @@
   "name": "desert-vscode-theme",
   "displayName": "Desert (Vim Port)",
   "description": "A faithful port of Vim's \"desert.vim\" colorscheme to Visual Studio Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "r11s",
   "engines": {
     "vscode": "^1.80.0"
