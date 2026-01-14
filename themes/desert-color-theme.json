@@ -78,7 +78,7 @@
     "statusBar.debuggingBackground": "#c2bfa5",
     "statusBar.debuggingForeground": "#333333",
 
-    "tab.activeBackground": "#c2bfa5",
+    "tab.activeBackground": "#615a4a",
     "tab.activeForeground": "#ffffff",
 
     "panel.background": "#4d4d4d",
@@ -91,7 +91,7 @@
     "editorWidget.background": "#666666",
     "editorSuggestWidget.background": "#666666",
     "editorSuggestWidget.foreground": "#ffffff",
-    "editorSuggestWidget.selectedBackground": "#f0e68c",
+    "editorSuggestWidget.selectedBackground": "#e2772bed",
     "editorSuggestWidget.selectedForeground": "#333333",
     "editorSuggestWidget.highlightForeground": "#ffa0a0",
     "editorHoverWidget.background": "#666666",
