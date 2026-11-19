@@ -1,8 +1,8 @@
 {
   "name": "desert-vscode-theme",
   "displayName": "Desert (Vim Port)",
-  "description": "A faithful port of Vim's \"desert.vim\" colorscheme to Visual Studio Code.",
-  "version": "1.0.4",
+  "description": "A faithful port of Vim's \"desert.vim\" colorscheme, with bold, no-bold and Sand variants.",
+  "version": "1.1.0",
   "publisher": "r11s",
   "engines": {
     "vscode": "^1.80.0"
@@ -38,6 +38,16 @@
         "label": "Desert (Vim port, no bold)",
         "uiTheme": "vs-dark",
         "path": "./themes/desert-color-theme-no-bold.json"
+      },
+      {
+        "label": "Desert (Vim Port, Sand)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/desert-color-theme-sand.json"
+      },
+      {
+        "label": "Desert (Vim Port, Sand, no bold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/desert-color-theme-sand-no-bold.json"
       }
     ]
   },

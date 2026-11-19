@@ -26,6 +26,19 @@ This VS Code port preserves that distinctive look and feel, matching Vim’s hig
 
 ------
 
+## 🎭 Variants
+
+| Theme                              | Description                                                        |
+| ---------------------------------- | ------------------------------------------------------------------ |
+| **Desert (Vim Port)**              | The faithful port, with bold keywords and types                    |
+| **Desert (Vim port, no bold)**     | Same colors, without bold text                                     |
+| **Desert (Vim Port, Sand)**        | Softer frame: sand-colored title and status bar, calmer sidebar    |
+| **Desert (Vim Port, Sand, no bold)** | The Sand variant without bold text                               |
+
+The Sand variants keep the editor and syntax colors of the original. Only the surrounding interface changes: a sand-colored title bar, status bar and selection, a slightly darker sidebar and a softer sidebar text color.
+
+------
+
 ## 🧩 Installation
 
 ### 1️⃣ From the VS Code Marketplace
