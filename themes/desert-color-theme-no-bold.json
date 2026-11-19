@@ -58,8 +58,8 @@
     "sideBar.background": "#424242",
     "sideBar.foreground": "#ffffff",
 
-    "sideBarSectionHeader.background": "#c2bfa5",
-    "sideBarSectionHeader.foreground": "#333333",
+    "sideBarSectionHeader.background": "#424242",
+    "sideBarSectionHeader.foreground": "#f6ec96",
 
     /* Activity Bar: higher contrast */
     "activityBar.background": "#3c3c3c",
